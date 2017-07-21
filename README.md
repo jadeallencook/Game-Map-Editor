@@ -5,8 +5,14 @@ Create RPG games using JavaScript!
 Include the 'js2rpg' JS/CSS files, then create a 'div' and give it an id. 
 
 ```html 
+<!-- styles -->
 <link href="js2rpg.css" rel="stylesheet" type="text/css" />
+
+<!-- game container -->
 <div id="myGame"></div>
+
+
+<!-- scripts -->
 <script src="js2rpg.js></script>
 <script src="app.js></script>
 ```
