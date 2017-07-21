@@ -11,7 +11,6 @@ Include the 'js2rpg' JS/CSS files, then create a 'div' and give it an id.
 <!-- game container -->
 <div id="myGame"></div>
 
-
 <!-- scripts -->
 <script src="js2rpg.js></script>
 <script src="app.js></script>
