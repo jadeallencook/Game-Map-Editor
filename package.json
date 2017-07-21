@@ -1,0 +1,23 @@
+{
+  "name": "js2rpg",
+  "version": "1.0.0",
+  "description": "Create RPGs using JS",
+  "main": "example/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadeallencook/js2rpg.git"
+  },
+  "keywords": [
+    "rpg",
+    "js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jadeallencook/js2rpg/issues"
+  },
+  "homepage": "https://github.com/jadeallencook/js2rpg#readme"
+}
