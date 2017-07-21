@@ -23,5 +23,15 @@ var myGame = new rpg('myGame', [30, 30], [15, 5]);
 ```
 
 __Example__
+
 _In the example above we are creating a new game in the 'div' with the ID 'myGame'. The second parameter is the tile size array '30px by 30px' and the last parameter is the board size array '15 wide by 5 tiles tall'._
 
+## Creating Tiles
+
+## Generating Maps
+
+## Binding Keys
+
+## Starting Game
+
+## Game Example
