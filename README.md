@@ -1,7 +1,9 @@
 # js2rpg
+
 Create RPG games using JavaScript! 
 
 ## Setup
+
 Include the 'js2rpg' JS/CSS files, then create a 'div' and give it an ID. 
 
 ```html 
@@ -35,3 +37,13 @@ _In the example above we are creating a new game in the 'div' with the ID 'myGam
 ## Starting Game
 
 ## Game Example
+
+## Advanced Options
+
+When you create a new game (example in setup), you can pass the generator an object to add global styles. 
+
+```javascript 
+{
+  tileBorder: 'solid thin #999' // border for tiles
+}
+```
