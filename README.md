@@ -2,7 +2,7 @@
 Create RPG games using JavaScript! 
 
 ## Setup
-Include the 'js2rpg' JS/CSS files, then create a 'div' and give it an id. 
+Include the 'js2rpg' JS/CSS files, then create a 'div' and give it an ID. 
 
 ```html 
 <!-- styles -->
@@ -19,5 +19,9 @@ Include the 'js2rpg' JS/CSS files, then create a 'div' and give it an id.
 Now in your JS app create a new rpg.
 
 ```javascript
-var myGame = new rpg('game', [30, 30], [15, 5]);
+var myGame = new rpg('myGame', [30, 30], [15, 5]);
 ```
+
+__Example__
+_In the example above we are creating a new game in the 'div' with the ID 'myGame'. The second parameter is the tile size array '30px by 30px' and the last parameter is the board size array '15 wide by 5 tiles tall'._
+
