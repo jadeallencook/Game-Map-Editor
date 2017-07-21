@@ -12,8 +12,8 @@ Include the 'js2rpg' JS/CSS files, then create a 'div' and give it an id.
 <div id="myGame"></div>
 
 <!-- scripts -->
-<script src="js2rpg.js></script>
-<script src="app.js></script>
+<script src="js2rpg.js"></script>
+<script src="app.js"></script>
 ```
 
 Now in your JS app create a new rpg.
