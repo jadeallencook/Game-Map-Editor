@@ -9,4 +9,9 @@ div.tile {
   float: left;
   margin: 0px;
   padding: 0px;
+  cursor: pointer;
+}
+
+div#player {
+  display: inline-block;
 }
