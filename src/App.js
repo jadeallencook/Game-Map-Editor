@@ -14,12 +14,19 @@ import Player from './pages/Player';
 import Settings from './pages/Settings';
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      auth: true
+    };
+  }
+
   render() {
     return (
       <div className="App">
-        <Navbar />
         <Router>
-          <Route exact path='/' component={Login} />
+          <Navbar />
+          <Route exact path='/' component={(this.state.auth) ? Games : Login} />
           <Route path='/enemies' component={Enemies} />
           <Route path='/game' component={Game} />
           <Route path='/games' component={Games} />
