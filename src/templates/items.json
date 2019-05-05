@@ -1,6 +1,11 @@
 {
-    "item-abc123": {
-        "title": "Sword Of Time",
-        "image": null
-    }
+    "weapons": {
+        "item-abc123": {
+            "title": "Basic Sword",
+            "image": "sword-1.png",
+            "attack": 1
+        }
+    },
+    "defense": {},
+    "usables": {}
 }
