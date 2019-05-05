@@ -30,7 +30,7 @@ class App extends Component {
           <Route path='/enemies' component={Enemies} />
           <Route path='/game' component={Game} />
           <Route path='/games' component={Games} />
-          <Route path='/map' component={Maps} />
+          <Route path='/maps' component={Maps} />
           <Route path='/objects' component={Objects} />
           <Route path='/player' component={Player} />
           <Route path='/settings' component={Settings} />
