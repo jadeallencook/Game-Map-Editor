@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import './Player.scss';
+import './Players.scss';
 
-class Player extends Component {
+class Players extends Component {
     constructor() {
         super();
         this.state = {};
     }
     render() {
         return (
-        <div className="Player">
-            Player works!
+        <div className="Players">
+            Players works!
         </div>
         );
     }
 }
 
-export default Player;
+export default Players;

@@ -13,8 +13,9 @@ import Game from './pages/Game';
 import Games from './pages/Games';
 import Maps from './pages/Maps';
 import Objects from './pages/Objects';
-import Player from './pages/Player';
+import Players from './pages/Players';
 import Settings from './pages/Settings';
+import Items from './pages/Items';
 
 class App extends Component {
   constructor() {
@@ -47,8 +48,9 @@ class App extends Component {
             return <Games user={this.state.user} games={games} load={this.load.bind(this)} />
           }} />
           <Route path='/maps' component={Maps} />
+          <Route path='/items' component={Items} />
           <Route path='/objects' component={Objects} />
-          <Route path='/player' component={Player} />
+          <Route path='/players' component={Players} />
           <Route path='/settings' component={Settings} />
         </Router>
       </div>
