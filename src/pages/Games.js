@@ -18,7 +18,7 @@ class Games extends Component {
                         owner.map(uid => {
                             const game = this.props.games[uid];
                             return (
-                                <Link to="/overview" key={uid}>
+                                <Link to="/game" key={uid}>
                                     <li className="clickable" onClick={() => this.props.load(uid)}>
                                         <div></div>
                                         <p>{game.title}</p>
