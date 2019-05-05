@@ -1,0 +1,45 @@
+{
+    "map-abc123": {
+        "title": "First Map",
+        "owner": "user-abc123",
+        "x": 10,
+        "y": 10,
+        "0": [
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+        ],
+        "1": [
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+        ],
+        "3": [
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
+        ],
+        "global": null
+    }
+}

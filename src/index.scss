@@ -9,3 +9,11 @@ body {
   cursor: pointer;
   opacity: 0.5;
 }
+
+input[type="text"],
+input[type="submit"],
+input[type="password"] {
+  width: 100%;
+  max-width: 150px;
+  display: block;
+}

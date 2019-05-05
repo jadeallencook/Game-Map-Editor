@@ -1,9 +1,17 @@
 div.Login {
-
+    h1 {
+        text-align: center;
+    }
+    >form {
+        padding: 25px 0px;
+        >input {
+            display: block;
+            margin: 0px auto;
+            margin-bottom: 15px;
+        }
+    }
 }
 
 @media only screen and (max-device-width: 480px) {
-    div.Login {
-        
-    }
+    div.Login {}
 }

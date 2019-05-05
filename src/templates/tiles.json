@@ -1,0 +1,7 @@
+{
+    "tile-abc123": {
+        "icon": "",
+        "color": "#00FF00",
+        "walk": [true, true, true, true]
+    }
+}

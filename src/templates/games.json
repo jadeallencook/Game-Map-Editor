@@ -1,0 +1,23 @@
+{
+    "game-abc123": {
+        "title": "Adventure Game",
+        "created": "Sun May 05 2019 13:34:07 GMT-0400 (Eastern Daylight Time)",
+        "player": {
+            "uid": "player-abc123",
+            "hearts": 5,
+            "attack": 1,
+            "defense": 0
+        },
+        "stats": {
+            "xp": 150,
+            "hearts": 1,
+            "attack": 1,
+            "defense": 0
+        },
+        "start": {
+            "map": "map-abc123",
+            "x": 0,
+            "y": 0
+        }
+    }
+}
