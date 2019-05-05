@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Game.scss';
+import Sidebar from '../components/Sidebar';
 
 class Game extends Component {
     constructor() {
@@ -9,6 +10,7 @@ class Game extends Component {
     render() {
         return (
         <div className="Game">
+            <Sidebar />
             Game works!
         </div>
         );
