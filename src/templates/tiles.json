@@ -1,7 +1,22 @@
 {
-    "tile-abc123": {
-        "icon": "",
-        "color": "#00FF00",
-        "walk": [true, true, true, true]
+    "ground": {
+        "tile-grass123": {
+            "icon": "/images/tiles/ground/grass-1.png",
+            "title": "Basic Grass",
+            "color": "#00FF00",
+            "walk": [true, true, true, true]
+        },
+        "tile-gravel123": {
+            "icon": "/images/tiles/ground/gravel-1.png",
+            "title": "Basic Gravel",
+            "color": "#4C453E",
+            "walk": [true, true, true, true]
+        },
+        "tile-tile123": {
+            "icon": "/images/tiles/ground/tile-1.png",
+            "title": "Basic Tile",
+            "color": "#88837F",
+            "walk": [true, true, true, true]
+        }
     }
 }
