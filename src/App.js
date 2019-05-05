@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.scss';
 
 import users from './templates/users.json';
+import games from './templates/games.json';
 
 import Navbar from './components/Navbar';
 
@@ -33,7 +34,7 @@ class App extends Component {
           <Route path='/enemies' component={Enemies} />
           <Route path='/game' component={Game} />
           <Route path='/games' component={() => {
-            return <Games user={this.state.user} />
+            return <Games user={this.state.user} games={games} />
           }} />
           <Route path='/maps' component={Maps} />
           <Route path='/objects' component={Objects} />
