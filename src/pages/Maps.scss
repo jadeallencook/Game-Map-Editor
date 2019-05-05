@@ -1,9 +1,71 @@
-div.Maps {
+@import '../style.global.scss';
 
+div.Maps {
+    display: grid;
+    grid-template-rows: 55px 1fr;
+
+    >div:first-child {
+        background-color: $lightgrey;
+        padding: $padding;
+        white-space: nowrap;
+
+        >form {
+            display: inline-block;
+        }
+
+        select,
+        input,
+        button {
+            margin-right: $margin;
+        }
+
+        input[type="number"] {
+            width: 50px;
+        }
+
+        select {
+            width: 250px;
+        }
+    }
+
+    >div:nth-child(2) {
+        display: grid;
+        grid-template-columns: 365px 1fr;
+
+        // toolbar
+        >div:first-child {
+            background-color: $grey;
+            color: $white;
+            padding: $padding;
+            box-sizing: border-box;
+
+            > h2 {
+                margin: 0px 0px $margin 0px;
+            }
+
+            > h2:not(:first-child) {
+                margin-top: $margin;
+            }
+
+            > input,
+            > select {
+                margin-right: $margin;
+            }
+            > select {
+                width: 100px;
+            }
+            > input[type="number"] {
+                width: 50px;
+            }
+        }
+
+        // map
+        >div:nth-child(2) {
+            background-color: $lightergrey;
+        }
+    }
 }
 
 @media only screen and (max-device-width: 480px) {
-    div.Maps {
-        
-    }
+    div.Maps {}
 }

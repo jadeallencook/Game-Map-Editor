@@ -11,10 +11,23 @@ body {
   opacity: 0.5;
 }
 
-input[type="text"],
-input[type="submit"],
-input[type="password"] {
-  width: 100%;
-  max-width: 150px;
-  display: block;
+.btn {
+  border: none;
+  padding: 5px 15px;
+  background-color: $blue;
+  color: $white;
+}
+
+.dropdown {
+  height: 25px;
+}
+
+.input {
+  border: none;
+  padding: 5px;
+}
+
+.danger {
+  background-color: $red;
+  color: $white;
 }
