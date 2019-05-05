@@ -1,0 +1,13 @@
+@import './style.global.scss';
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: $grey;
+  color: $white;
+}
+
+.clickable:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
