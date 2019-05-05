@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.scss';
 
+import users from './templates/users.json';
+
 import Navbar from './components/Navbar';
 
 import Login from './pages/Login';
@@ -17,7 +19,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      auth: true
+      auth: true,
+      user: users['user-abc123']
     };
   }
 
@@ -29,7 +32,9 @@ class App extends Component {
           <Route exact path='/' component={(this.state.auth) ? Games : Login} />
           <Route path='/enemies' component={Enemies} />
           <Route path='/game' component={Game} />
-          <Route path='/games' component={Games} />
+          <Route path='/games' component={() => {
+            <Games user={this.state.user} />
+          }} />
           <Route path='/maps' component={Maps} />
           <Route path='/objects' component={Objects} />
           <Route path='/player' component={Player} />
