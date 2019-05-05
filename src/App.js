@@ -21,7 +21,8 @@ class App extends Component {
     super();
     this.state = {
       auth: true,
-      user: users['user-abc123']
+      user: users['user-abc123'],
+      game: games[users['user-abc123'].games.owner[0]]
     };
   }
 
@@ -32,7 +33,9 @@ class App extends Component {
           <Navbar />
           <Route exact path='/' component={(this.state.auth) ? Games : Login} />
           <Route path='/enemies' component={Enemies} />
-          <Route path='/game' component={Game} />
+          <Route path='/game' component={() => {
+            return <Game game={this.state.game} />
+          }} />
           <Route path='/games' component={() => {
             return <Games user={this.state.user} games={games} />
           }} />

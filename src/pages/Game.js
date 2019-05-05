@@ -1,17 +1,25 @@
 import React, { Component } from 'react';
 import './Game.scss';
-import Sidebar from '../components/Sidebar';
 
 class Game extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
+        console.log(props)
         this.state = {};
     }
+
+    handler(event) {
+        event.preventDefault();
+    }
+
     render() {
         return (
         <div className="Game">
-            <Sidebar />
-            Game works!
+            <h2>Game Overview</h2>
+            <form onSubmit={this.handler.bind(this)}>
+                <input type="text" value={this.props.game.title} />
+                <input type="submit" value="Save" />
+            </form>
         </div>
         );
     }
