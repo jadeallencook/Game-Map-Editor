@@ -26,6 +26,13 @@ class App extends Component {
     };
   }
 
+  load(uid) {
+    this.setState({
+      ...this.state,
+      game: games[uid]
+    });
+  }
+
   render() {
     return (
       <div className="App">
@@ -37,7 +44,7 @@ class App extends Component {
             return <Game game={this.state.game} />
           }} />
           <Route path='/games' component={() => {
-            return <Games user={this.state.user} games={games} />
+            return <Games user={this.state.user} games={games} load={this.load.bind(this)} />
           }} />
           <Route path='/maps' component={Maps} />
           <Route path='/objects' component={Objects} />
