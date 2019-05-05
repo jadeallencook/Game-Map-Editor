@@ -33,7 +33,7 @@ class App extends Component {
           <Route path='/enemies' component={Enemies} />
           <Route path='/game' component={Game} />
           <Route path='/games' component={() => {
-            <Games user={this.state.user} />
+            return <Games user={this.state.user} />
           }} />
           <Route path='/maps' component={Maps} />
           <Route path='/objects' component={Objects} />
