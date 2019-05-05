@@ -2,4 +2,10 @@
 
 .App {
   background-color: $white;
+  display: grid;
+  grid-template-rows: 40px 1fr;
+  position: absolute;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
