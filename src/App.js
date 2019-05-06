@@ -6,6 +6,7 @@ import users from './templates/users.json';
 import games from './templates/games.json';
 import maps from './templates/maps.json';
 import items from './templates/items.json';
+import tiles from './templates/tiles.json';
 
 import Navbar from './components/Navbar';
 
@@ -50,9 +51,8 @@ class App extends Component {
             return <Games user={this.state.user} games={games} load={this.load.bind(this)} />
           }} />
           <Route path='/maps' component={() => {
-            return <Maps maps={maps} />
+            return <Maps maps={maps} tiles={tiles} />
           }} />
-          <Route path='/items' component={Items} />
           <Route path='/items' component={() => {
             return <Items items={items} game={this.state.game} />
           }} />

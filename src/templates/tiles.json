@@ -1,19 +1,19 @@
 {
     "ground": {
-        "tile-grass123": {
-            "icon": "/images/tiles/ground/grass-1.png",
+        "grass123": {
+            "image": "grass123.jpg",
             "title": "Basic Grass",
             "color": "#00FF00",
             "walk": [true, true, true, true]
         },
-        "tile-gravel123": {
-            "icon": "/images/tiles/ground/gravel-1.png",
+        "gravel123": {
+            "image": "gravel123.jpg",
             "title": "Basic Gravel",
             "color": "#4C453E",
             "walk": [true, true, true, true]
         },
-        "tile-tile123": {
-            "icon": "/images/tiles/ground/tile-1.png",
+        "tile123": {
+            "image": "tile123.jpg",
             "title": "Basic Tile",
             "color": "#88837F",
             "walk": [true, true, true, true]

@@ -6,8 +6,21 @@ class Maps extends Component {
         super(props);
         this.state = {
             map: props.maps['map-abc123'],
-            z: 'ground'
+            z: 'ground',
+            size: 750
         };
+        this.keys();
+    }
+
+    keys() {
+        document.onkeydown = event => {
+            const { key } = event;
+            if (key === '-') {
+                this.zoom(-25);
+            } else if (key === '=') {
+                this.zoom(25);
+            }
+        }
     }
 
     create(event) {
@@ -22,11 +35,25 @@ class Maps extends Component {
 
     }
 
+    zoom(num) {
+        num = this.state.size + num;
+        this.setState({
+            ...this.state,
+            size: (num > 500) ? num : 500
+        })
+    }
+
+    image(x, y) {
+        const map = this.state.map[this.state.z];
+        const tile = this.props.tiles[this.state.z][map[y][x]];
+        return `/images/tiles/${this.state.z}/${tile.image}`;
+    }
+
     render() {
         return (
             <div className="Maps">
                 <div>
-                    <select value="none" className="dropdown">
+                    <select value="none" className="dropdown" onChange={this.load.bind(this)}>
                         <option value="none" disabled>No Maps (Create A New One)</option>
                     </select>
                     <button className="btn danger clickable">Remove</button>
@@ -49,18 +76,27 @@ class Maps extends Component {
                         <input type="number" placeholder="Width" className="input" required />
                         <h2>Tiles</h2>
                         <ul>
-                            <li>Grass</li>
-                            <li>Gravel</li>
-                            <li>Water</li>
-                            <li>Other</li>
+                            {
+                                Object.keys(this.props.tiles[this.state.z]).map(key => {
+                                    const { image } = this.props.tiles[this.state.z][key];
+                                    return (
+                                        <li 
+                                            key={key}
+                                            style={{
+                                                backgroundImage: `url(/images/tiles/${this.state.z}/${image})`
+                                            }}
+                                            className="clickable"
+                                        ></li>
+                                    );
+                                })
+                            }
                         </ul>
-                        <ul><li></li></ul>
-                        <h2>Enemies</h2>
-                        <h2>Items</h2>
-                        <h2>Actions</h2>
                     </div>
                     <div>
-                        <div>
+                        <div style={{
+                            height: `${this.state.size}px`,
+                            width: `${this.state.size}px`
+                        }}>
                             {
                                 (() => {
                                     const grid = new Array(10).fill(new Array(10).fill(null));
@@ -71,6 +107,9 @@ class Maps extends Component {
                                                     data-x={x} 
                                                     data-y={y}
                                                     key={`tile-${x}-${y}`}
+                                                    style={{
+                                                        backgroundImage: `url(${this.image(x, y)})`
+                                                    }}
                                                     className="clickable"
                                                 ></div>
                                             )
@@ -80,6 +119,10 @@ class Maps extends Component {
                             }
                         </div>
                     </div>
+                    <ul>
+                        <li className="clickable" onClick={() => this.zoom(25)}>+</li>
+                        <li className="clickable" onClick={() => this.zoom(-25)}>-</li>
+                    </ul>
                 </div>
             </div>
         );

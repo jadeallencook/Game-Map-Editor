@@ -39,6 +39,19 @@ div.Maps {
             padding: $padding;
             box-sizing: border-box;
 
+            >ul {
+                list-style: none;
+                padding: 0px;
+
+                >li {
+                    height: 50px;
+                    width: 50px;
+                    display: inline-block;
+                    margin-right: $margin;
+                    background-size: cover;
+                }
+            }
+
             >h2 {
                 margin: 0px 0px $margin 0px;
             }
@@ -63,7 +76,8 @@ div.Maps {
 
         // map
         >div:nth-child(2) {
-            background-color: $lightblue;
+            background-color: $lightergrey;
+            overflow: scroll;
 
             >div {
                 background-color: $lightergrey;
@@ -73,9 +87,32 @@ div.Maps {
                 grid-template-columns: repeat(10, 1fr);
                 grid-template-rows: repeat(10, 1fr);
 
-                >div:hover {
-                    border: $grey solid thin;
+                >div {
+                    background-size: cover;
+                    animation: deselect-tile 500ms;
                 }
+
+                >div:hover {
+                    animation: select-tile 500ms
+                }
+            }
+        }
+
+        // zoom
+        >ul {
+            position: absolute;
+            bottom: $margin;
+            right: $margin;
+            list-style: none;
+            padding: 0px;
+            text-align: center;
+            background-color: $grey;
+            padding: 0px 5px;
+            color: $white;
+            font-size: 1.25em;
+
+            >li:nth-child(2) {
+                font-size: 1.5em;
             }
         }
     }
@@ -83,4 +120,24 @@ div.Maps {
 
 @media only screen and (max-device-width: 480px) {
     div.Maps {}
+}
+
+@keyframes select-tile {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes deselect-tile {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

@@ -5,16 +5,16 @@
         "x": 10,
         "y": 10,
         "ground": [
-            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
-            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
-            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
-            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
-            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
-            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
-            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
-            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
-            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"],
-            ["tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123", "tile-abc123"]
+            ["grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123"],
+            ["grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123"],
+            ["grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123"],
+            ["grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123"],
+            ["grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123"],
+            ["grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123"],
+            ["grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123"],
+            ["grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123"],
+            ["grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123"],
+            ["grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123", "grass123"]
         ],
         "player": [
             [null, null, null, null, null, null, null, null, null, null],
