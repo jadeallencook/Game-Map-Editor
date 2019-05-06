@@ -18,6 +18,13 @@
             "map": "map-abc123",
             "x": 0,
             "y": 0
+        },
+        "items": {
+            "selected-abc123": {
+                "uid": "item-abc123",
+                "type": "weapons",
+                "attack": 5
+            }
         }
     }
 }

@@ -2,8 +2,7 @@
     "weapons": {
         "item-abc123": {
             "title": "Basic Sword",
-            "image": "sword-1.png",
-            "attack": 1
+            "image": "sword-1.png"
         }
     },
     "defense": {},
