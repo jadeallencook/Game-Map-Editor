@@ -1,5 +1,37 @@
-div.Items {
+@import '../style.global.scss';
 
+div.Items {
+    padding: 0px $padding;
+    > ul {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        list-style: none;
+        padding: 0px;
+        > li {
+            display: grid;
+            grid-gap: $padding;
+            grid-template-columns: 150px 1fr;
+            > div {
+                height: 150px;
+                width: 150px;
+                background-color: $grey;
+                background-size: cover;
+            }
+            > ul {
+                list-style: none;
+                padding: 0px;
+                > li:last-child {
+                    padding-top: $padding;
+                }
+                >li {
+                    text-transform: capitalize;
+                    > span {
+                        margin-right: $margin;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (max-device-width: 480px) {

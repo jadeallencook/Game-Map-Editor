@@ -5,6 +5,7 @@ import './App.scss';
 import users from './templates/users.json';
 import games from './templates/games.json';
 import maps from './templates/maps.json';
+import items from './templates/items.json';
 
 import Navbar from './components/Navbar';
 
@@ -52,6 +53,9 @@ class App extends Component {
             return <Maps maps={maps} />
           }} />
           <Route path='/items' component={Items} />
+          <Route path='/items' component={() => {
+            return <Items items={items} game={this.state.game} />
+          }} />
           <Route path='/objects' component={Objects} />
           <Route path='/players' component={Players} />
           <Route path='/settings' component={Settings} />
