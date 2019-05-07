@@ -109,13 +109,16 @@ class Maps extends Component {
                         <ul>
                             {
                                 Object.keys(this.props.tiles[this.state.z]).map(key => {
-                                    const { image } = this.props.tiles[this.state.z][key];
+                                    const { image, walk } = this.props.tiles[this.state.z][key];
                                     return (
                                         <li
                                             key={key}
                                             style={{
                                                 backgroundImage: `url(/images/tiles/${this.state.z}/${image})`,
-                                                borderColor: (this.state.tile === key) ? '#FFF' : null
+                                                borderTop: (this.state.tile === key) ? `solid thin ${(!walk[0]) ? '#F00' : '#FFF'}` : null,
+                                                borderRight: (this.state.tile === key) ? `solid thin ${(!walk[1]) ? '#F00' : '#FFF'}` : null,
+                                                borderBottom: (this.state.tile === key) ? `solid thin ${(!walk[2]) ? '#F00' : '#FFF'}` : null,
+                                                borderLeft: (this.state.tile === key) ? `solid thin ${(!walk[3]) ? '#F00' : '#FFF'}` : null
                                             }}
                                             className="clickable"
                                             onClick={() => this.setState({ ...this.state, tile: key })}
