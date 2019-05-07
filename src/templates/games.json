@@ -25,6 +25,7 @@
                 "type": "weapons",
                 "attack": 5
             }
-        }
+        },
+        "maps": ["map-abc123"]
     }
 }

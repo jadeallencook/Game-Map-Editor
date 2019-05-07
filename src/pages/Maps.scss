@@ -39,11 +39,17 @@ div.Maps {
             padding: $padding;
             box-sizing: border-box;
 
+            >p {
+                margin: 0px;
+                font-size: 0.85em;
+            }
+
             >ul {
                 list-style: none;
                 padding: 0px;
 
                 >li {
+                    border: solid thin $grey;
                     height: 50px;
                     width: 50px;
                     display: inline-block;

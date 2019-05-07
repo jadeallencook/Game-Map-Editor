@@ -51,7 +51,7 @@ class App extends Component {
             return <Games user={this.state.user} games={games} load={this.load.bind(this)} />
           }} />
           <Route path='/maps' component={() => {
-            return <Maps maps={maps} tiles={tiles} />
+            return <Maps allMaps={maps} userMaps={this.state.game.maps} tiles={tiles} />
           }} />
           <Route path='/items' component={() => {
             return <Items items={items} game={this.state.game} />
