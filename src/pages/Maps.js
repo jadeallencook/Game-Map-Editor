@@ -82,11 +82,9 @@ class Maps extends Component {
                             })
                         }
                     </select>
-                    <button className="btn danger clickable">Remove</button>
+                    { (this.props.userMaps.length > 1) ? <button className="btn danger clickable">Remove</button> : null }
                     <form onSubmit={this.createNewMap.bind(this)}>
                         <input type="text" placeholder="Map Name" className="input" required />
-                        <input type="number" placeholder="Height" className="input" required />
-                        <input type="number" placeholder="Width" className="input" required />
                         <input type="submit" value="Create Map" className="btn clickable" required />
                     </form>
                 </div>
@@ -95,15 +93,11 @@ class Maps extends Component {
                         <h2>Editor</h2>
                         <p><b>Ground:</b> Map construction.</p>
                         <p><b>Player:</b> Events, objects, and enemies</p>
-                        <p><b>Sky:</b> Events and walk unders.</p>
                         <br />
                         <select className="dropdown" onChange={event => this.setState({ ...this.state, z: event.target.value })}>
                             <option value="ground">Ground</option>
                             <option value="player">Player</option>
-                            <option value="sky">Sky</option>
                         </select>
-                        <input type="number" placeholder="Height" className="input" required />
-                        <input type="number" placeholder="Width" className="input" required />
                         <h2>Tiles</h2>
                         <p>Hold down alt/option to draw with tile.</p>
                         <ul>

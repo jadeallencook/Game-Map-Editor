@@ -42,7 +42,9 @@ class App extends Component {
       <div className="App">
         <Router>
           <Navbar />
-          <Route exact path='/' component={(this.state.auth) ? Games : Login} />
+          <Route exact path='/' component={(this.state.auth) ? () => {
+            return <Games user={this.state.user} games={games} load={this.load.bind(this)} />
+          } : Login} />
           <Route path='/enemies' component={Enemies} />
           <Route path='/game' component={() => {
             return <Game game={this.state.game} />

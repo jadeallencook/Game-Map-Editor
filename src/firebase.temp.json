@@ -1,0 +1,93 @@
+{
+    "users": {
+        "e72e6e98404f5132e": {
+            "name": "John Doe",
+            "games": ["dc637afd8f1b9fa4d"]
+        }
+    },
+    "maps": {
+        "9d174af81378fca5d": {
+            "title": "Hello World Map",
+            "owner": "e72e6e98404f5132e",
+            "ground": [
+                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"],
+                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"],
+                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"],
+                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"],
+                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"],
+                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"],
+                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"],
+                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"],
+                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"],
+                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"]
+            ],
+            "player": [
+                [null, null, null, null, null, null, null, null, null, null],
+                [null, null, null, null, null, null, null, null, null, null],
+                [null, null, null, null, null, null, null, null, null, null],
+                [null, null, null, null, null, null, null, null, null, null],
+                [null, null, null, null, null, null, null, null, null, null],
+                [null, null, null, null, null, null, null, null, null, null],
+                [null, null, null, null, null, null, null, null, null, null],
+                [null, null, null, null, null, null, null, null, null, null],
+                [null, null, null, null, null, null, null, null, null, null],
+                [null, null, null, null, null, null, null, null, null, null]
+            ]
+        }
+    },
+    "tiles": {
+        "acd8bbbc4f749d009": {
+            "image": "grass123.jpg",
+            "color": "#00FF00",
+            "walk": true
+        },
+        "b0f8b6eeed2c88527": {
+            "image": "gravel123.png",
+            "color": "#4C453E",
+            "walk": true
+        },
+        "542cc2466e00770ce": {
+            "image": "stone123.jpg",
+            "color": "#88837F",
+            "walk": true
+        },
+        "6067be27690204972": {
+            "image": "water123.jpg",
+            "color": "#0000FF",
+            "walk": false
+        }
+    },
+    "games": {
+        "dc637afd8f1b9fa4d": {
+            "title": "Hello World Game",
+            "created": "Sun May 05 2019 13:34:07 GMT-0400 (Eastern Daylight Time)",
+            "player": "7530b26617ac4d230",
+            "start": {
+                "map": "9d174af81378fca5d",
+                "x": 0,
+                "y": 0
+            },
+            "items": ["340b9492918cf56c7"],
+            "maps": ["9d174af81378fca5d"]
+        }
+    },
+    "enemies": {
+
+    },
+    "items": {
+        "340b9492918cf56c7": {
+            "title": "Basic Sword",
+            "image": "sword-1.png",
+            "type": "weapon",
+            "attack": 1
+        }
+    },
+    "players": {
+        "7530b26617ac4d230": {
+            "xp": 150,
+            "hearts": 5,
+            "attack": 1,
+            "defense": 0
+        }
+    }
+}
