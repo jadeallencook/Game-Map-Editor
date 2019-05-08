@@ -10,55 +10,115 @@
             "title": "Hello World Map",
             "owner": "e72e6e98404f5132e",
             "tiles": [
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }]
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }],
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }],
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }],
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }],
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }],
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }],
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }],
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }],
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }],
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }]
             ]
         },
         "aa5a4ee2134cb51a7": {
             "title": "The Second World",
             "owner": "e72e6e98404f5132e",
             "tiles": [
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
-                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }]
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "d574426dae9821804" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }],
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "d574426dae9821804" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }],
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "d574426dae9821804" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }],
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "d574426dae9821804" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }],
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "d574426dae9821804" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }],
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "d574426dae9821804" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }],
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "d574426dae9821804" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }],
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "d574426dae9821804" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }],
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "d574426dae9821804" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }],
+                [{ "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "d574426dae9821804" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }, { "tile": "5ca9305d608aaab0e" }]
             ]
         }
     },
     "tiles": {
         "acd8bbbc4f749d009": {
-            "image": "grass123.jpg",
-            "color": "#00FF00",
-            "walk": [true, true, true, true]
+            "image": "bricks.png",
+            "walk": [false, false, false, false]
         },
         "b0f8b6eeed2c88527": {
-            "image": "gravel123.png",
-            "color": "#4C453E",
+            "image": "clay.png",
             "walk": [true, true, true, true]
         },
         "542cc2466e00770ce": {
-            "image": "stone123.jpg",
-            "color": "#88837F",
+            "image": "coal.png",
             "walk": [true, true, true, true]
-        },
-        "6067be27690204972": {
-            "image": "water123.jpg",
-            "color": "#0000FF",
+        }, 
+        "bf013b30cb83ce577": {
+            "image": "cobblestone.png",
+            "walk": [true, true, true, true]
+        }, 
+        "d574426dae9821804": {
+            "image": "crackedstone.png",
             "walk": [false, false, false, false]
+        }, 
+        "5ca9305d608aaab0e": {
+            "image": "dirt.png",
+            "walk": [true, true, true, true]
+        }, 
+        "718221a69e9212bea": {
+            "image": "farmland.png",
+            "walk": [true, true, true, true]
+        }, 
+        "e93630a7877808054": {
+            "image": "glass.png",
+            "walk": [true, true, true, true]
+        }, 
+        "cf78d1efb7cda38ac": {
+            "image": "gold.png",
+            "walk": [true, true, true, true]
+        }, 
+        "96be95e9f19fe6e1e": {
+            "image": "granite.png",
+            "walk": [true, true, true, true]
+        }, 
+        "2c29c913fa8b98218": {
+            "image": "gravel.png",
+            "walk": [true, true, true, true]
+        }, 
+        "296e98242c2d1bfca": {
+            "image": "hay.png",
+            "walk": [true, true, true, true]
+        }, 
+        "6a6f6cca9e5363c81": {
+            "image": "ice.png",
+            "walk": [true, true, true, true]
+        }, 
+        "5ae3cc1c3424db24a": {
+            "image": "log.png",
+            "walk": [true, true, true, true]
+        }, 
+        "2add191e6478e1430": {
+            "image": "piston.png",
+            "walk": [false, false, false, false]
+        }, 
+        "65a009e91e601c625": {
+            "image": "sandstone.png",
+            "walk": [true, true, true, true]
+        }, 
+        "4eb1c04083b49d119": {
+            "image": "slime.png",
+            "walk": [true, true, true, true]
+        }, 
+        "513983983db605122": {
+            "image": "stone.png",
+            "walk": [false, false, false, false]
+        }, 
+        "3e3d710254f37fc75": {
+            "image": "tnt.png",
+            "walk": [false, false, false, false]
+        }, 
+        "354bd940f73e841c8": {
+            "image": "wood.png",
+            "walk": [true, true, true, true]
         }
     },
     "games": {
