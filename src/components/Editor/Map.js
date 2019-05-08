@@ -8,6 +8,8 @@ const Map = props => {
         const tile = props.tiles[map[y][x].tile];
         return `/images/tiles/${tile.image}`;
     }
+    
+    console.log(props);
 
     return (
         <div className="Map">
@@ -27,11 +29,22 @@ const Map = props => {
                                         key={`tile-${x}-${y}`}
                                         style={{
                                             backgroundImage: `url(${image(x, y)})`,
-                                            border: (props.layer === 'player') ? 'solid thin #FFF' : null
+                                            border: (props.layer === 'player') ? 'solid thin #FFF' : null,
+                                            opacity: (
+                                                props.selected[0] === y && 
+                                                props.selected[1] === x &&
+                                                props.layer === 'player'
+                                            ) ? '0.5' : null
                                         }}
                                         className="clickable"
                                         onMouseEnter={event => (event.altKey) ? props.updateTile(x, y) : null}
-                                        onClick={() => props.updateTile(x, y)}
+                                        onClick={() => {
+                                            if (props.layer === 'ground') {
+                                                props.updateTile(x, y)
+                                            } else if (props.layer === 'player') {
+                                                props.updateSelected(y, x);
+                                            }
+                                        }}
                                     ></div>
                                 )
                             });

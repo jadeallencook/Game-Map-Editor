@@ -3,6 +3,7 @@ import './Toolbar.scss';
 
 const Toolbar = props => (
     <div className="Toolbar">
+        <button className="btn clickable">Play</button>
         <select className="dropdown" onChange={props.toggleLayer}>
             <option value="ground">Ground</option>
             <option value="player">Player</option>

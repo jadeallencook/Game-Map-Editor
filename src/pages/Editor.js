@@ -17,6 +17,7 @@ class Editor extends Component {
             game: null,
             tile: null,
             tiles: null,
+            selected: [0, 0],
             layer: 'ground',
             size: 600
         };
@@ -114,6 +115,13 @@ class Editor extends Component {
         });
     }
 
+    updateSelected(y, x) {
+        this.setState({
+            ...this.state,
+            selected: [y, x]
+        })
+    }
+
     render() {
         return (this.state.game && this.state.map && this.state.maps && this.state.tiles) ? (
             <div className="Editor">
@@ -123,6 +131,7 @@ class Editor extends Component {
                     createMap={this.createMap.bind(this)}
                     toggleLayer={this.toggleLayer.bind(this)}
                     maps={this.state.maps}
+                    selected={this.state.selected}
                 />
                 <div>
                     <Sidebar
@@ -137,6 +146,8 @@ class Editor extends Component {
                         tiles={this.state.tiles}
                         layer={this.state.layer}
                         updateTile={this.updateTile.bind(this)}
+                        selected={this.state.selected}
+                        updateSelected={this.updateSelected.bind(this)}
                     />
                     <Zoom
                         zoom={this.zoom.bind(this)}

@@ -4,26 +4,6 @@ div.Map {
     background-color: $lightergrey;
     overflow: scroll;
 
-    @keyframes select-tile {
-        0% {
-            opacity: 1;
-        }
-    
-        100% {
-            opacity: 0.5;
-        }
-    }
-    
-    @keyframes deselect-tile {
-        0% {
-            opacity: 0.5;
-        }
-    
-        100% {
-            opacity: 1;
-        }
-    }
-
     >div {
         background-color: $lightergrey;
         display: grid;
@@ -35,7 +15,6 @@ div.Map {
         >div {
             background-size: cover;
             box-sizing: border-box;
-            animation: deselect-tile 500ms;
         }
 
         >div:nth-child(-n+10) {
@@ -55,7 +34,7 @@ div.Map {
         }
 
         >div:hover {
-            animation: select-tile 500ms
+            opacity: 0.5;
         }
     }
 }
