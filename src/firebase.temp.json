@@ -1,7 +1,6 @@
 {
     "users": {
         "e72e6e98404f5132e": {
-            "name": "John Doe",
             "games": ["dc637afd8f1b9fa4d"]
         }
     },
@@ -140,7 +139,6 @@
     },
     "items": {
         "340b9492918cf56c7": {
-            "title": "Basic Sword",
             "image": "sword-1.png",
             "type": "weapon",
             "attack": 1
