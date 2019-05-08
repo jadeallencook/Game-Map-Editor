@@ -4,12 +4,12 @@ import format from '../services/format-date';
 import { Link } from 'react-router-dom';
 
 class Games extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {};
     }
     render() {
-        const { owner } = this.props.user.games;
+        const owner = (this.props.user) ? this.props.user.games : [];
         return (
             <div className="Games">
                 <h2>Your Games</h2>
