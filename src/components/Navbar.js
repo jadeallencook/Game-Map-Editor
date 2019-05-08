@@ -5,9 +5,9 @@ import './Navbar.scss';
 
 const Navbar = props => (
     <div className="Navbar">
-        <Link className="clickable" to="/games">Games</Link>
-        <Link className="clickable" to="/game">Overview</Link>
-        <Link className="clickable" to="/maps">Maps</Link>
+        <Link className="clickable" to="/">Games</Link>
+        <Link className="clickable" to="/overview">Overview</Link>
+        <Link className="clickable" to="/editor">Editor</Link>
         <Link className="clickable" to="/settings">Settings</Link>
     </div>
 );

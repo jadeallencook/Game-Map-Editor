@@ -9,29 +9,33 @@
         "9d174af81378fca5d": {
             "title": "Hello World Map",
             "owner": "e72e6e98404f5132e",
-            "ground": [
-                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"],
-                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"],
-                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"],
-                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"],
-                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"],
-                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"],
-                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"],
-                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"],
-                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"],
-                ["acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009", "acd8bbbc4f749d009"]
-            ],
-            "player": [
-                [null, null, null, null, null, null, null, null, null, null],
-                [null, null, null, null, null, null, null, null, null, null],
-                [null, null, null, null, null, null, null, null, null, null],
-                [null, null, null, null, null, null, null, null, null, null],
-                [null, null, null, null, null, null, null, null, null, null],
-                [null, null, null, null, null, null, null, null, null, null],
-                [null, null, null, null, null, null, null, null, null, null],
-                [null, null, null, null, null, null, null, null, null, null],
-                [null, null, null, null, null, null, null, null, null, null],
-                [null, null, null, null, null, null, null, null, null, null]
+            "tiles": [
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }]
+            ]
+        },
+        "aa5a4ee2134cb51a7": {
+            "title": "The Second World",
+            "owner": "e72e6e98404f5132e",
+            "tiles": [
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }],
+                [{ "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "542cc2466e00770ce" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }, { "tile": "acd8bbbc4f749d009" }]
             ]
         }
     },
@@ -39,22 +43,22 @@
         "acd8bbbc4f749d009": {
             "image": "grass123.jpg",
             "color": "#00FF00",
-            "walk": true
+            "walk": [true, true, true, true]
         },
         "b0f8b6eeed2c88527": {
             "image": "gravel123.png",
             "color": "#4C453E",
-            "walk": true
+            "walk": [true, true, true, true]
         },
         "542cc2466e00770ce": {
             "image": "stone123.jpg",
             "color": "#88837F",
-            "walk": true
+            "walk": [true, true, true, true]
         },
         "6067be27690204972": {
             "image": "water123.jpg",
             "color": "#0000FF",
-            "walk": false
+            "walk": [false, false, false, false]
         }
     },
     "games": {
@@ -68,7 +72,7 @@
                 "y": 0
             },
             "items": ["340b9492918cf56c7"],
-            "maps": ["9d174af81378fca5d"]
+            "maps": ["9d174af81378fca5d", "aa5a4ee2134cb51a7"]
         }
     },
     "enemies": {

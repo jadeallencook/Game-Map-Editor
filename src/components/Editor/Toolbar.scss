@@ -1,0 +1,35 @@
+@import '../../style.global.scss';
+
+div.Toolbar {
+    background-color: $lightgrey;
+        padding: $padding;
+        white-space: nowrap;
+
+        >form {
+            display: inline-block;
+        }
+
+        select,
+        input,
+        button {
+            margin-right: $margin;
+        }
+
+        input[type="number"] {
+            width: 50px;
+        }
+
+        select:nth-child(1) {
+            width: 100px;
+        }
+
+        select:nth-child(2) {
+            width: 150px;
+        }
+}
+
+@media only screen and (max-device-width: 480px) {
+    div.Toolbar {
+        
+    }
+}

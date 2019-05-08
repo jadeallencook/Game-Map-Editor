@@ -1,0 +1,67 @@
+@import '../../style.global.scss';
+
+div.Map {
+    background-color: $lightergrey;
+    overflow: scroll;
+
+    @keyframes select-tile {
+        0% {
+            opacity: 1;
+        }
+    
+        100% {
+            opacity: 0.5;
+        }
+    }
+    
+    @keyframes deselect-tile {
+        0% {
+            opacity: 0.5;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
+
+    >div {
+        background-color: $lightergrey;
+        display: grid;
+        height: 750px;
+        width: 750px;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+
+        >div {
+            background-size: cover;
+            box-sizing: border-box;
+            animation: deselect-tile 500ms;
+        }
+
+        >div:nth-child(-n+10) {
+            border-top: none!important;
+        }
+
+        >div:nth-child(10n) {
+            border-right: none!important;
+        }
+
+        >div:nth-last-child(10n) {
+            border-left: none!important;
+        }
+
+        >div:nth-last-child(-n+10) {
+            border-bottom: none!important;
+        }
+
+        >div:hover {
+            animation: select-tile 500ms
+        }
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    div.Map {
+        
+    }
+}

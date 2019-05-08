@@ -1,0 +1,54 @@
+@import '../../style.global.scss';
+
+div.Sidebar {
+    background-color: $grey;
+    color: $white;
+    padding: $padding;
+    box-sizing: border-box;
+
+    >p {
+        margin: 0px;
+        font-size: 0.85em;
+    }
+
+    >ul {
+        list-style: none;
+        padding: 0px;
+
+        >li {
+            border: solid thin $grey;
+            height: 50px;
+            width: 50px;
+            display: inline-block;
+            margin-right: $margin;
+            background-size: cover;
+        }
+    }
+
+    >h2 {
+        margin: 0px 0px $margin 0px;
+    }
+
+    >h2:not(:first-child) {
+        margin-top: $margin;
+    }
+
+    >input,
+    >select {
+        margin-right: $margin;
+    }
+
+    >select {
+        width: 100px;
+    }
+
+    >input[type="number"] {
+        width: 50px;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    div.Sidebar {
+        
+    }
+}

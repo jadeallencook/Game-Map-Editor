@@ -1,0 +1,24 @@
+@import '../../style.global.scss';
+
+ul.Zoom {
+    position: absolute;
+    bottom: $margin;
+    right: $margin;
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    background-color: $grey;
+    padding: 0px 5px;
+    color: $white;
+    font-size: 1.25em;
+
+    >li:nth-child(2) {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    ul.Zoom {
+        
+    }
+}
