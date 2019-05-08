@@ -8,7 +8,7 @@ import Map from '../components/Editor/Map';
 import Zoom from '../components/Editor/Zoom';
 
 class Editor extends Component {
-    
+
     constructor(props) {
         super(props);
         this.state = {
@@ -97,12 +97,14 @@ class Editor extends Component {
     }
 
     updateTile(x, y) {
-        let map = this.state.map;
-        map.tiles[y][x].tile = this.state.tile;
-        this.setState({
-            ...this.state,
-            map: map
-        });
+        if (this.state.layer === 'ground') {
+            let map = this.state.map;
+            map.tiles[y][x].tile = this.state.tile;
+            this.setState({
+                ...this.state,
+                map: map
+            });
+        }
     }
 
     toggleLayer(event) {
@@ -115,20 +117,21 @@ class Editor extends Component {
     render() {
         return (this.state.game && this.state.map && this.state.maps && this.state.tiles) ? (
             <div className="Editor">
-                <Toolbar 
-                    loadMap={this.loadMap.bind(this)} 
-                    deleteMap={this.deleteMap.bind(this)} 
+                <Toolbar
+                    loadMap={this.loadMap.bind(this)}
+                    deleteMap={this.deleteMap.bind(this)}
                     createMap={this.createMap.bind(this)}
                     toggleLayer={this.toggleLayer.bind(this)}
                     maps={this.state.maps}
                 />
                 <div>
-                    <Sidebar 
+                    <Sidebar
                         setTile={this.setTile.bind(this)}
                         tiles={this.state.tiles}
                         tile={this.state.tile}
+                        layer={this.state.layer}
                     />
-                    <Map 
+                    <Map
                         size={this.state.size}
                         map={this.state.map}
                         tiles={this.state.tiles}
@@ -141,10 +144,10 @@ class Editor extends Component {
                 </div>
             </div>
         ) : (
-            <div className="Editor">
-                <h2>Loading Editor...</h2>
-            </div>
-        )
+                <div className="Editor">
+                    <h2>Loading Editor...</h2>
+                </div>
+            )
     }
 }
 

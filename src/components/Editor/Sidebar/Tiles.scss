@@ -1,9 +1,43 @@
+@import '../../../style.global.scss';
+
 div.Tiles {
 
+    >ul {
+        list-style: none;
+        padding: 0px;
+
+        >li {
+            border: solid thin $grey;
+            height: 50px;
+            width: 50px;
+            display: inline-block;
+            margin-right: $margin;
+            background-size: cover;
+        }
+    }
+
+    >h2 {
+        margin-top: 0px;
+    }
+
+    >h2:not(:first-child) {
+        margin-top: $margin;
+    }
+
+    >input,
+    >select {
+        margin-right: $margin;
+    }
+
+    >select {
+        width: 100px;
+    }
+
+    >input[type="number"] {
+        width: 50px;
+    }
 }
 
 @media only screen and (max-device-width: 480px) {
-    div.Tiles {
-        
-    }
+    div.Tiles {}
 }
