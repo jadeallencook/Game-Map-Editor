@@ -127,8 +127,8 @@
             "player": "7530b26617ac4d230",
             "start": {
                 "map": "9d174af81378fca5d",
-                "x": 0,
-                "y": 0
+                "x": 4,
+                "y": 9
             },
             "enemies": [],
             "items": ["340b9492918cf56c7"],
@@ -147,6 +147,7 @@
     },
     "players": {
         "7530b26617ac4d230": {
+            "image": "human.png",
             "xp": 150,
             "hearts": 5,
             "attack": 1,

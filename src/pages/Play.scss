@@ -1,5 +1,27 @@
-div.Play {
+@import '../style.global.scss';
 
+div.Play {
+    >h2 {
+        text-align: center;
+    }
+    div#game {
+        width: 500px;
+        height: 500px;
+        background-color: $grey;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        margin: 0px auto;
+        >div {
+            background-size: cover;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            >div#player {
+                background-size: cover;
+            }
+        }
+    }
 }
 
 @media only screen and (max-device-width: 480px) {

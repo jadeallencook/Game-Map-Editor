@@ -8,8 +8,6 @@ const Map = props => {
         const tile = props.tiles[map[y][x].tile];
         return `/images/tiles/${tile.image}`;
     }
-    
-    console.log(props);
 
     return (
         <div className="Map">
