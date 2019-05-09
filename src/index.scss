@@ -22,15 +22,21 @@ body {
   padding: 5px 15px;
   background-color: $blue;
   color: $white;
+  text-decoration: none;
 }
 
 .dropdown {
   height: 25px;
 }
 
-.input {
-  border: none;
+.input,
+.bordered-input {
   padding: 5px;
+  border: none;
+}
+
+.bordered-input {
+  border: solid thin $black;
 }
 
 .danger {

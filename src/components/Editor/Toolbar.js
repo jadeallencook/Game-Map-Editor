@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Toolbar.scss';
 
 const Toolbar = props => (
     <div className="Toolbar">
-        <button className="btn clickable">Play</button>
+        <Link to="/play" className="btn clickable">Play</Link>
         <select className="dropdown" onChange={props.toggleLayer}>
             <option value="ground">Ground</option>
             <option value="player">Player</option>

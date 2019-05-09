@@ -130,6 +130,7 @@
                 "x": 0,
                 "y": 0
             },
+            "enemies": [],
             "items": ["340b9492918cf56c7"],
             "maps": ["9d174af81378fca5d", "aa5a4ee2134cb51a7"]
         }

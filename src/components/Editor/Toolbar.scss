@@ -9,6 +9,11 @@ div.Toolbar {
             display: inline-block;
         }
 
+        a.btn {
+            font-size: .75em;
+            margin-right: $margin;
+        }
+
         select,
         input,
         button {

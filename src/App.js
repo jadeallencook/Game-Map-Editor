@@ -9,6 +9,7 @@ import Games from './pages/Games';
 import Editor from './pages/Editor';
 import Settings from './pages/Settings';
 import Overview from './pages/Overview';
+import Play from './pages/Play';
 
 class App extends Component {
   constructor() {
@@ -71,6 +72,13 @@ class App extends Component {
           <Route path='/editor' component={() => {
             return (
               <Editor 
+                game={this.state.game}
+              />
+            );
+          }} />
+          <Route path='/play' component={() => {
+            return (
+              <Play 
                 game={this.state.game}
               />
             );

@@ -1,5 +1,24 @@
-div.Overview {
+@import '../style.global.scss';
 
+div.Overview {
+    padding: 0px $padding;
+
+    p {
+        font-size: 0.85em;
+    }
+
+    >form {
+        input[type="submit"] {
+            margin-top: $margin;
+        }
+        input[type="number"] {
+            width: 50px;
+            margin-right: $margin;
+        }
+        select {
+            margin-bottom: $margin;
+        }
+    }
 }
 
 @media only screen and (max-device-width: 480px) {
