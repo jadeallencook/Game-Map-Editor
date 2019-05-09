@@ -58,7 +58,7 @@ class Play extends Component {
                         facing: 3,
                         position: {
                             ...this.state.player.position,
-                            x: this.state.player.position.x - 1
+                            x: (this.state.player.position.x > 0) ? this.state.player.position.x - 1 : 0
                         }
                     }
                 });
@@ -71,7 +71,7 @@ class Play extends Component {
                         facing: 0,
                         position: {
                             ...this.state.player.position,
-                            y: this.state.player.position.y - 1
+                            y: (this.state.player.position.y - 1 > 0) ? this.state.player.position.y - 1 : 0
                         }
                     }
                 });
@@ -84,7 +84,7 @@ class Play extends Component {
                         facing: 1,
                         position: {
                             ...this.state.player.position,
-                            x: this.state.player.position.x + 1
+                            x: (this.state.player.position.x + 1 < 9) ? this.state.player.position.x + 1 : 9
                         }
                     }
                 });
@@ -97,7 +97,7 @@ class Play extends Component {
                         facing: 2,
                         position: {
                             ...this.state.player.position,
-                            y: this.state.player.position.y + 1
+                            y: (this.state.player.position.y + 1 < 9) ? this.state.player.position.y + 1 : 9
                         }
                     }
                 });
