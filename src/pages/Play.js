@@ -11,6 +11,7 @@ class Play extends Component {
             events: null,
             player: {
                 image: null,
+                facing: 'up',
                 position: {
                     x: null,
                     y: null
@@ -49,10 +50,12 @@ class Play extends Component {
         document.onkeydown = event => {
             const { keyCode } = event;
             if (keyCode === 37) {
+                // left
                 this.setState({
                     ...this.state,
                     player: {
                         ...this.state.player,
+                        facing: 3,
                         position: {
                             ...this.state.player.position,
                             x: this.state.player.position.x - 1
@@ -60,10 +63,12 @@ class Play extends Component {
                     }
                 });
             } else if (keyCode === 38) {
+                // up
                 this.setState({
                     ...this.state,
                     player: {
                         ...this.state.player,
+                        facing: 0,
                         position: {
                             ...this.state.player.position,
                             y: this.state.player.position.y - 1
@@ -71,10 +76,12 @@ class Play extends Component {
                     }
                 });
             } else if (keyCode === 39) {
+                // right
                 this.setState({
                     ...this.state,
                     player: {
                         ...this.state.player,
+                        facing: 1,
                         position: {
                             ...this.state.player.position,
                             x: this.state.player.position.x + 1
@@ -82,10 +89,12 @@ class Play extends Component {
                     }
                 });
             } else if (keyCode === 40) {
+                // down
                 this.setState({
                     ...this.state,
                     player: {
                         ...this.state.player,
+                        facing: 2,
                         position: {
                             ...this.state.player.position,
                             y: this.state.player.position.y + 1
@@ -124,7 +133,13 @@ class Play extends Component {
                                                 <div 
                                                     id="player"
                                                     style={{
-                                                        backgroundImage: `url(/images/players/${this.state.player.image})`
+                                                        backgroundImage: `url(/images/players/${this.state.player.image})`,
+                                                        transform: `rotate(${
+                                                            (() => {
+                                                                const { facing } = this.state.player;
+                                                                return facing * 90;
+                                                            })()
+                                                        }deg)`
                                                     }}
                                                 ></div>
                                             ) : null
