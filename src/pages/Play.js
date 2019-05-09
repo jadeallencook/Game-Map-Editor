@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import firebase from '../firebase.temp.json';
+import Player from '../components/Play/Player';
 import './Play.scss';
 
 class Play extends Component {
@@ -11,7 +12,7 @@ class Play extends Component {
             events: null,
             player: {
                 image: null,
-                facing: 'up',
+                facing: 0,
                 position: {
                     x: null,
                     y: null
@@ -36,6 +37,7 @@ class Play extends Component {
                 map: map,
                 player: {
                     image: player.image,
+                    facing: 1,
                     position: {
                         x: start.x,
                         y: start.y
@@ -49,55 +51,22 @@ class Play extends Component {
         }
         document.onkeydown = event => {
             const { keyCode } = event;
-            if (keyCode === 37) {
-                // left
+            if (keyCode >= 37 && keyCode <= 40) {
+                const direction = keyCode - 37,
+                    isVertical = (((direction / 2) % 1) > 0);
+                let x = this.state.player.position.x,
+                    y = this.state.player.position.y;
+                x = (isVertical) ? x : (!direction) ? (x - 1 < 0) ? 0 : x -1 : (x + 1 > 9) ? 9 : x + 1;
+                y = (!isVertical) ? y : (direction === 1) ? (y - 1 < 0) ? 0 : y - 1 : (y + 1 > 9) ? 9 : y + 1;
                 this.setState({
                     ...this.state,
                     player: {
                         ...this.state.player,
-                        facing: 3,
+                        facing: keyCode - 37,
                         position: {
                             ...this.state.player.position,
-                            x: (this.state.player.position.x > 0) ? this.state.player.position.x - 1 : 0
-                        }
-                    }
-                });
-            } else if (keyCode === 38) {
-                // up
-                this.setState({
-                    ...this.state,
-                    player: {
-                        ...this.state.player,
-                        facing: 0,
-                        position: {
-                            ...this.state.player.position,
-                            y: (this.state.player.position.y - 1 > 0) ? this.state.player.position.y - 1 : 0
-                        }
-                    }
-                });
-            } else if (keyCode === 39) {
-                // right
-                this.setState({
-                    ...this.state,
-                    player: {
-                        ...this.state.player,
-                        facing: 1,
-                        position: {
-                            ...this.state.player.position,
-                            x: (this.state.player.position.x + 1 < 9) ? this.state.player.position.x + 1 : 9
-                        }
-                    }
-                });
-            } else if (keyCode === 40) {
-                // down
-                this.setState({
-                    ...this.state,
-                    player: {
-                        ...this.state.player,
-                        facing: 2,
-                        position: {
-                            ...this.state.player.position,
-                            y: (this.state.player.position.y + 1 < 9) ? this.state.player.position.y + 1 : 9
+                            y: y,
+                            x: x
                         }
                     }
                 });
@@ -117,8 +86,6 @@ class Play extends Component {
                                 const image = firebase.tiles[key].image;
                                 return (
                                     <div
-                                        data-x={x}
-                                        data-y={y}
                                         tile={key}
                                         key={`tile-${y}-${x}`}
                                         style={{
@@ -130,18 +97,10 @@ class Play extends Component {
                                                 this.state.player.position.x === x &&
                                                 this.state.player.position.y === y
                                             ) ? (
-                                                <div 
-                                                    id="player"
-                                                    style={{
-                                                        backgroundImage: `url(/images/players/${this.state.player.image})`,
-                                                        transform: `rotate(${
-                                                            (() => {
-                                                                const { facing } = this.state.player;
-                                                                return facing * 90;
-                                                            })()
-                                                        }deg)`
-                                                    }}
-                                                ></div>
+                                                <Player 
+                                                    facing={this.state.player.facing} 
+                                                    image={this.state.player.image} 
+                                                />
                                             ) : null
                                         }
                                     </div>
