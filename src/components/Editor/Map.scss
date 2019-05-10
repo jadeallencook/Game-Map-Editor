@@ -15,6 +15,13 @@ div.Map {
         >div {
             background-size: cover;
             box-sizing: border-box;
+
+            div.Enemy {
+                height: 100%;
+                width: 100%;
+                background-size: cover;
+            }
+
         }
 
         >div:nth-child(-n+10) {

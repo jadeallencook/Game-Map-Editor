@@ -1,11 +1,12 @@
 import React from 'react';
+import firebase from '../../firebase.temp.json';
 import './Map.scss';
 
 const Map = props => {
 
     function image(x, y) {
         const map = props.map.tiles;
-        const tile = props.tiles[map[y][x].tile];
+        const tile = props.tiles[props.map.tiles[y][x].tile];
         return `/images/tiles/${tile.image}`;
     }
 
@@ -20,6 +21,8 @@ const Map = props => {
                         const grid = new Array(10).fill(new Array(10).fill(null));
                         return grid.map((row, y) => {
                             return row.map((column, x) => {
+                                const tile = props.map.tiles[y][x];
+                                console.log(tile)
                                 return (
                                     <div
                                         data-x={x}
@@ -43,7 +46,18 @@ const Map = props => {
                                                 props.updateSelected(y, x);
                                             }
                                         }}
-                                    ></div>
+                                    >
+                                        {
+                                            (tile.enemy && props.layer === 'player') ? (
+                                                <div 
+                                                    className="Enemy"
+                                                    style={{
+                                                        backgroundImage: `url(/images/enemies/${firebase.enemies[tile.enemy].image})`
+                                                    }}
+                                                ></div>
+                                            ) : null
+                                        }
+                                    </div>
                                 )
                             });
                         });

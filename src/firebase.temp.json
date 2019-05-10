@@ -13,7 +13,7 @@
                 [{"tile":"cf78d1efb7cda38ac"},{"tile":"296e98242c2d1bfca"},{"tile":"296e98242c2d1bfca"},{"tile":"513983983db605122"},{"tile":"5ae3cc1c3424db24a"},{"tile":"5ae3cc1c3424db24a"},{"tile":"513983983db605122"},{"tile":"296e98242c2d1bfca"},{"tile":"296e98242c2d1bfca"},{"tile":"cf78d1efb7cda38ac"}],
                 [{"tile":"296e98242c2d1bfca"},{"tile":"296e98242c2d1bfca"},{"tile":"513983983db605122"},{"tile":"513983983db605122"},{"tile":"5ae3cc1c3424db24a"},{"tile":"5ae3cc1c3424db24a"},{"tile":"513983983db605122"},{"tile":"513983983db605122"},{"tile":"296e98242c2d1bfca"},{"tile":"296e98242c2d1bfca"}],
                 [{"tile":"513983983db605122"},{"tile":"513983983db605122"},{"tile":"513983983db605122"},{"tile":"2add191e6478e1430"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"2add191e6478e1430"},{"tile":"513983983db605122"},{"tile":"513983983db605122"},{"tile":"513983983db605122"}],
-                [{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"}],
+                [{"tile":"bf013b30cb83ce577", "enemy": "990ebfb192aeb8ad3"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"}],
                 [{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"}],
                 [{"tile":"513983983db605122"},{"tile":"513983983db605122"},{"tile":"513983983db605122"},{"tile":"2add191e6478e1430"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"2add191e6478e1430"},{"tile":"513983983db605122"},{"tile":"513983983db605122"},{"tile":"513983983db605122"}],
                 [{"tile":"d574426dae9821804"},{"tile":"d574426dae9821804"},{"tile":"513983983db605122"},{"tile":"513983983db605122"},{"tile":"bf013b30cb83ce577"},{"tile":"bf013b30cb83ce577"},{"tile":"513983983db605122"},{"tile":"513983983db605122"},{"tile":"d574426dae9821804"},{"tile":"d574426dae9821804"}],
@@ -136,7 +136,11 @@
         }
     },
     "enemies": {
-
+        "990ebfb192aeb8ad3": {
+            "image": "soldier.gif",
+            "attack": 1,
+            "hearts": 1
+        }
     },
     "items": {
         "340b9492918cf56c7": {

@@ -79,7 +79,6 @@ class Editor extends Component {
 
     deleteMap(event) {
         event.preventDefault();
-        console.log(event);
     }
 
     createMap(event) {
@@ -87,7 +86,6 @@ class Editor extends Component {
         const form = event.target;
         const inputs = form.querySelectorAll('input');
         const title = inputs[0].value;
-        console.log(title);
     }
 
     setTile(uid) {
@@ -101,7 +99,6 @@ class Editor extends Component {
         if (this.state.layer === 'ground') {
             let map = this.state.map;
             map.tiles[y][x].tile = this.state.tile;
-            console.log(JSON.stringify(map.tiles));
             this.setState({
                 ...this.state,
                 map: map

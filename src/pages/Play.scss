@@ -4,14 +4,18 @@ div.Play {
     >h2 {
         text-align: center;
     }
-    div#game {
+    div#menu,
+    div#game,
+    ul#story {
         width: 500px;
-        height: 500px;
+        margin: 0px auto;
+    }
+    div#game {
         background-color: $grey;
+        height: 500px;
         display: grid;
         grid-template-columns: repeat(10, 1fr);
         grid-template-rows: repeat(10, 1fr);
-        margin: 0px auto;
         >div {
             background-size: cover;
             display: grid;
@@ -20,6 +24,29 @@ div.Play {
             >div#player {
                 background-size: cover;
             }
+            >div.Enemy {
+                background-size: cover;
+            }
+        }
+    }
+    >div#menu {
+        padding: $padding 0px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        >div {
+            span {
+                display: block;
+            }
+        }
+    }
+    >ul#story {
+        margin-top: $margin;
+        height: 125px;
+        overflow-y: scroll;
+        list-style: none;
+        padding: 0px;
+        >li {
+            margin-bottom: 15px;
         }
     }
 }
