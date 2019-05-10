@@ -101,6 +101,7 @@ class Editor extends Component {
         if (this.state.layer === 'ground') {
             let map = this.state.map;
             map.tiles[y][x].tile = this.state.tile;
+            console.log(JSON.stringify(map.tiles));
             this.setState({
                 ...this.state,
                 map: map

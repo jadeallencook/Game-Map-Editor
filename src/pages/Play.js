@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import firebase from '../firebase.temp.json';
 import Player from '../components/Play/Player';
+import getNextPosition from '../services/get-next-position';
 import './Play.scss';
 
 class Play extends Component {
@@ -10,6 +11,7 @@ class Play extends Component {
             title: null,
             map: null,
             events: null,
+            tiles: firebase.tiles,
             player: {
                 image: null,
                 facing: 0,
@@ -52,21 +54,21 @@ class Play extends Component {
         document.onkeydown = event => {
             const { keyCode } = event;
             if (keyCode >= 37 && keyCode <= 40) {
-                const direction = keyCode - 37,
-                    isVertical = (((direction / 2) % 1) > 0);
-                let x = this.state.player.position.x,
-                    y = this.state.player.position.y;
-                x = (isVertical) ? x : (!direction) ? (x - 1 < 0) ? 0 : x -1 : (x + 1 > 9) ? 9 : x + 1;
-                y = (!isVertical) ? y : (direction === 1) ? (y - 1 < 0) ? 0 : y - 1 : (y + 1 > 9) ? 9 : y + 1;
+                const direction = keyCode - 37;
+                const nextPosition = getNextPosition(direction, { ...this.state.player.position });
+                const nextTile = this.state.tiles[this.state.map.tiles[nextPosition.y][nextPosition.x].tile];
+                let canMove = true;
+                if (direction === 0 && !nextTile.walk[2]) canMove = false;
+                if (direction === 1 && !nextTile.walk[3]) canMove = false;
+                if (direction === 2 && !nextTile.walk[0]) canMove = false;
+                if (direction === 3 && !nextTile.walk[1]) canMove = false;
                 this.setState({
                     ...this.state,
                     player: {
                         ...this.state.player,
-                        facing: keyCode - 37,
+                        facing: direction,
                         position: {
-                            ...this.state.player.position,
-                            y: y,
-                            x: x
+                            ...(canMove) ? nextPosition : this.state.player.position
                         }
                     }
                 });
