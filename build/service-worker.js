@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Game-Map-Editor/build/precache-manifest.c136f71f4920a1f406bbce840640a8c5.js"
+  "/Game-Map-Editor/build/precache-manifest.c590472b3b437cc32e17ed709138d582.js"
 );
 
 workbox.clientsClaim();

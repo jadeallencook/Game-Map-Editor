@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import React, { Component } from 'react'; 
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import './App.scss';
 import firebase from './firebase.temp.json';
 
@@ -41,20 +41,28 @@ class App extends Component {
     return (
       <div className="App">
         <Router>
-          <Route exact path='/' component={() => {
-            return (
-              <Editor 
-                game={this.state.game}
-              />
-            );
-          }} />
-          <Route path='/play' component={() => {
-            return (
-              <Play 
-                game={this.state.game}
-              />
-            );
-          }} />
+          <Switch>
+            <Route exact path='/play' component={() => {
+              return (
+                <Play
+                  game={this.state.game}
+                />
+              );
+            }} />
+            <Route exact path='/edit' component={() => {
+              return (
+                <Editor
+                  game={this.state.game}
+                />
+              );
+            }} />
+            <Route exact path="/Game-Map-Editor/build">
+              <Redirect to="/edit" />
+            </Route>
+            <Route path="/*">
+              <Redirect to="/edit" />
+            </Route>
+          </Switch>
         </Router>
       </div>
     );
