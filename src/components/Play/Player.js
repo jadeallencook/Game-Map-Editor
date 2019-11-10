@@ -6,7 +6,7 @@ const Player = props => (
         className="Player"
         id="player"
         style={{
-            backgroundImage: `url(/images/players/${props.image})`,
+            backgroundImage: `url(https://jadeallencook.github.io/Game-Map-Editor/build/images/players/${props.image})`,
             transform: `rotate(${props.facing * 90}deg)`
         }}
     ></div>

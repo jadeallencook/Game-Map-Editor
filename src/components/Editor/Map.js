@@ -50,7 +50,7 @@ const Map = props => {
                                                 <div 
                                                     className="Enemy"
                                                     style={{
-                                                        backgroundImage: `url(/images/enemies/${firebase.enemies[tile.enemy].image})`
+                                                        backgroundImage: `url(https://jadeallencook.github.io/Game-Map-Editor/build/images/enemies/${firebase.enemies[tile.enemy].image})`
                                                     }}
                                                 ></div>
                                             ) : null
