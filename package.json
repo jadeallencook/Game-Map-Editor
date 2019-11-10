@@ -2,7 +2,7 @@
   "name": "rpg-maker-online",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jadeallencook.io/RPG-Maker-Online/build/",
+  "homepage": "https://jadeallencook.io/Game-Map-Editor/build/",
   "dependencies": {
     "node-sass": "^4.11.0",
     "react": "^16.8.2",
