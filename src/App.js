@@ -41,7 +41,7 @@ class App extends Component {
     return (
       <div className="App">
         <Router>
-          <Route path='/edit' component={() => {
+          <Route exact path='/' component={() => {
             return (
               <Editor 
                 game={this.state.game}

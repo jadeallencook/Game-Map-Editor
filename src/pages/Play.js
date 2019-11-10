@@ -103,7 +103,7 @@ class Play extends Component {
                         <span>MAP: {this.state.map.title}</span>
                         <span>X: {this.state.player.position.x}</span>
                         <span>Y: {this.state.player.position.y}</span>
-                        <span><Link to="/edit">Return editor</Link></span>
+                        <span><Link to="/">Return editor</Link></span>
                     </div>
                 </div>
                 <div id="game">
