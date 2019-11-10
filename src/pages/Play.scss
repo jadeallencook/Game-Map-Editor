@@ -1,6 +1,10 @@
 @import '../style.global.scss';
 
 div.Play {
+    a {
+        color: $blue;
+        text-decoration: none;
+    }
     >h2 {
         text-align: center;
     }

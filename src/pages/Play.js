@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import firebase from '../firebase.temp.json';
 import Player from '../components/Play/Player';
+import { Link } from 'react-router-dom';
 import getNextPosition from '../services/get-next-position';
 import './Play.scss';
 
@@ -97,11 +98,12 @@ class Play extends Component {
                         <span>XP: {this.state.player.xp}</span>
                         <span>HEARTS: {this.state.player.hearts}</span>
                         <span>ATTACK: {this.state.player.attack}</span>
-                        <span>DEFENSE: {this.state.player.defense}</span>
+                        <span><a href={`data:text/plain;charset=utf-8,${JSON.stringify(this.state.map)}`} download="map.json">Download map file</a></span>
                     </div><div>
                         <span>MAP: {this.state.map.title}</span>
                         <span>X: {this.state.player.position.x}</span>
                         <span>Y: {this.state.player.position.y}</span>
+                        <span><Link to="/edit">Return editor</Link></span>
                     </div>
                 </div>
                 <div id="game">
