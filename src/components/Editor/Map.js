@@ -6,7 +6,7 @@ const Map = props => {
 
     function image(x, y) {
         const tile = props.tiles[props.map.tiles[y][x].tile];
-        return `/images/tiles/${tile.image}`;
+        return `https://jadeallencook.github.io/Game-Map-Editor/build/images/tiles/${tile.image}`;
     }
 
     return (

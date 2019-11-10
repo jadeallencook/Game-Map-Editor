@@ -13,7 +13,7 @@ const Tiles = props => (
                         <li
                             key={uid}
                             style={{
-                                backgroundImage: `url(/images/tiles/${image})`,
+                                backgroundImage: `url(https://jadeallencook.github.io/Game-Map-Editor/build/images/tiles/${image})`,
                                 borderTop: (props.tile === uid) ? `solid thin ${(!walk[0]) ? '#F00' : '#FFF'}` : null,
                                 borderRight: (props.tile === uid) ? `solid thin ${(!walk[1]) ? '#F00' : '#FFF'}` : null,
                                 borderBottom: (props.tile === uid) ? `solid thin ${(!walk[2]) ? '#F00' : '#FFF'}` : null,

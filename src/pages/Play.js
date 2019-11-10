@@ -118,7 +118,7 @@ class Play extends Component {
                                         tile={key}
                                         key={`tile-${y}-${x}`}
                                         style={{
-                                            backgroundImage: `url(/images/tiles/${image})`
+                                            backgroundImage: `url(https://jadeallencook.github.io/Game-Map-Editor/build/images/tiles/${image})`
                                         }}
                                     >
                                         {
