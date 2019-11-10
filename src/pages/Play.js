@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import firebase from '../firebase.temp.json';
 import Player from '../components/Play/Player';
 import getNextPosition from '../services/get-next-position';
-import formatDate from '../services/format-date';
 import './Play.scss';
 
 class Play extends Component {
@@ -62,7 +61,7 @@ class Play extends Component {
                 const direction = keyCode - 37;
                 const nextPosition = getNextPosition(direction, { ...this.state.player.position });
                 const nextTile = this.state.tiles[this.state.map.tiles[nextPosition.y][nextPosition.x].tile];
-                const enemy = this.state.map.tiles[nextPosition.y][nextPosition.x].enemy;
+                let enemy = this.state.map.tiles[nextPosition.y][nextPosition.x].enemy;
                 let canMove = true;
                 if (direction === 0 && !nextTile.walk[2]) canMove = false;
                 if (direction === 1 && !nextTile.walk[3]) canMove = false;
@@ -71,7 +70,7 @@ class Play extends Component {
                 if (JSON.stringify(this.state.player.position) === JSON.stringify(nextPosition)) canMove = false;
                 let history = this.state.history.slice(0, 25);
                 let message = {};
-                message.text = (canMove) ? (enemy) ? 'Enemy' : 'You move forward.' : 'You bump into a wall.';
+                message.text = (canMove) ? (enemy) ? 'You fight an enemy.' : 'You move forward.' : 'You bump into a wall.';
                 message.time =  new Date().toLocaleString();
                 history = (message.text === history[0].text) ? history : [message, ...history];
                 this.setState({

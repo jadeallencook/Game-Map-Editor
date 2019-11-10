@@ -83,9 +83,6 @@ class Editor extends Component {
 
     createMap(event) {
         event.preventDefault();
-        const form = event.target;
-        const inputs = form.querySelectorAll('input');
-        const title = inputs[0].value;
     }
 
     setTile(uid) {

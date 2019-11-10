@@ -5,7 +5,6 @@ import './Map.scss';
 const Map = props => {
 
     function image(x, y) {
-        const map = props.map.tiles;
         const tile = props.tiles[props.map.tiles[y][x].tile];
         return `/images/tiles/${tile.image}`;
     }
@@ -22,7 +21,6 @@ const Map = props => {
                         return grid.map((row, y) => {
                             return row.map((column, x) => {
                                 const tile = props.map.tiles[y][x];
-                                console.log(tile)
                                 return (
                                     <div
                                         data-x={x}
